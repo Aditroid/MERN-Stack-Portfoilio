@@ -24,12 +24,19 @@ export const ThemeToggle = () => {
     }
   };
 
+  // Hide when menu is open
+  const menuOpen = document.querySelector('.menu-open');
+  const shouldHide = menuOpen?.classList.contains('menu-open');
+
   return (
     <button
       onClick={toggleTheme}
       className={cn(
-        "fixed max-sm:hidden top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
-        "focus:outlin-hidden"
+        "fixed z-50 p-2 rounded-full transition-colors duration-300",
+        "focus:outlin-hidden",
+        "max-sm:bottom-5 max-sm:left-5 max-sm:top-auto",
+        "min-sm:top-5 min-sm:right-5 min-sm:bottom-auto",
+        shouldHide ? 'hidden' : 'visible'
       )}
     >
       {isDarkMode ? (
