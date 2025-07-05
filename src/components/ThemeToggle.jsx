@@ -24,7 +24,7 @@ export const ThemeToggle = () => {
     }
   };
 
-  // Hide when menu is open
+  
   const menuOpen = document.querySelector('.menu-open');
   const shouldHide = menuOpen?.classList.contains('menu-open');
 
