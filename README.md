@@ -3,7 +3,6 @@
 A modern, fast, and responsive personal portfolio website built with **React + Vite**.  
 Showcasing my projects, skills, and experience as a MERN stack developer.
 
-![Portfolio Preview](https://drive.google.com/file/d/17k7i1ilHg3m9c6UYlieU9djFiQwvbU67/view?usp=sharing)
 
 ---
 
