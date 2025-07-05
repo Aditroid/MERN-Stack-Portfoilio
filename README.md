@@ -3,7 +3,7 @@
 A modern, fast, and responsive personal portfolio website built with **React + Vite**.  
 Showcasing my projects, skills, and experience as a MERN stack developer.
 
-![Portfolio Preview](./screenshot.png)
+![Portfolio Preview](./public/projects/mainproject.png)
 
 ---
 
@@ -35,7 +35,7 @@ Showcasing my projects, skills, and experience as a MERN stack developer.
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/Aditroid/MERN-Stack-Portfoilio
 
 # Navigate to the folder
 cd your-portfolio
