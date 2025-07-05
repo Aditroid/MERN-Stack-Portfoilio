@@ -1,0 +1,33 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased;
+}
+
+.scroll-section {
+  scroll-margin-top: 64px;
+}
+
+.scroll-button {
+  scroll-behavior: smooth;
+}
+
+/* Add custom smooth scroll animation */
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.smooth-scroll {
+  animation: smoothScroll 0.3s ease-out;
+}
