@@ -6,7 +6,7 @@ const projects = [
     title: "API Toolkit",
     description: "A beautiful page for multiple API tools",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Weather Lookup API", "Currency Converter API", "Phone Verification API"],
+    tags: ["React", "TailwindCSS", "Weather Lookup", "Currency Converter", "Phone Verification"],
     demoUrl: "#",
     githubUrl: "https://github.com/Aditroid/Reactjs-FetchAPI-Task",
   },
