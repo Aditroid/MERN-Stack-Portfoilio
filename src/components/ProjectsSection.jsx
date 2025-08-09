@@ -104,7 +104,7 @@ export const ProjectsSection = () => {
                   {project.description}
                 </p>
                 <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
+                  <div className="justify-end space-x-3">
                     {/* <a
                       href={project.demoUrl}
                       target="_blank"
@@ -115,7 +115,7 @@ export const ProjectsSection = () => {
                     <a
                       href={project.githubUrl}
                       target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300 "
                     >
                       <Github size={20} />
                     </a>
