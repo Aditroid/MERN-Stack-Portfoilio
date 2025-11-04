@@ -16,8 +16,8 @@ const projects = [
     description:
       "A web application that allows users to create custom short links by providing a long URL and a desired keyword",
     image: "/projects/project2.png",
-    tags: ["Next.js", "TailwindCSS", "Node.js", "Express", "MongoDB"],
-    demoUrl: "#",
+    tags: ["Next.js", "TailwindCSS", "Express", "MongoDB"],
+    demoUrl: "https://url-shortner-zeta-six.vercel.app/",
     githubUrl: "https://github.com/Aditroid/url-shortner",
   },
   {
