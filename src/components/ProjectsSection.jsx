@@ -6,7 +6,7 @@ const projects = [
     title: "API Toolkit",
     description: "A beautiful page for multiple API tools",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Weather Lookup", "Currency Converter", "Phone Verification"],
+    tags: ["React", "TailwindCSS", "API Tools"],
     demoUrl: "#",
     githubUrl: "https://github.com/Aditroid/Reactjs-FetchAPI-Task",
   },
@@ -36,7 +36,7 @@ const projects = [
     description:
       "A web application that replicates the core functionality of LinkTree, allowing users to create a personalized webpage containing all their important links",
     image: "/projects/project4.png",
-    tags: ["Next.js", "TailwindCSS", "Node.js", "Express", "MongoDB"],
+    tags: ["Next.js", "Tailwind", "Express", "MongoDB"],
     demoUrl: "#",
     githubUrl: "https://github.com/Aditroid/linktree-clone",
   },
@@ -56,8 +56,8 @@ const projects = [
     description:
       "A dynamic news website that fetches and organizes the latest articles from various sources, providing users with a seamless browsing experience",
     image: "/projects/project6.png",
-    tags: ["React", "Bootstrap", "NewsAPK API"],
-    demoUrl: "#",
+    tags: ["Next.js", "Tailwind", "NewsAPK API"],
+    demoUrl: "https://quicknews-omega.vercel.app/",
     githubUrl: "https://github.com/Aditroid/News",
   },
 ];
@@ -90,36 +90,40 @@ export const ProjectsSection = () => {
                 />
               </div>
 
-              <div className="p-6">
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
-                      {tag}
-                    </span>
-                  ))}
+              <div className="p-6 flex flex-col h-[calc(100%-12rem)]">
+                <div className="flex-1">
+            
+                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                  <p className="text-muted-foreground text-sm mb-4">
+                    {project.description}
+                  </p>
                 </div>
-
-                <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">
-                  {project.description}
-                </p>
-                <div className="flex justify-between items-center">
-                  <div className="justify-end space-x-3">
-                    {/* <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a> */}
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300 "
-                    >
-                      <Github size={20} />
-                    </a>
+                <div className="mb-4">
+                  <div className="flex flex-wrap gap-2">
+                    {project.tags.map((tag, tagIndex) => (
+                      <span key={tagIndex} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                        {tag}
+                      </span>
+                    ))}
                   </div>
+                </div>
+                <div className="mt-4 pt-4 border-t border-border flex justify-between items-center">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                  >
+                    <Github size={20} />
+                  </a>
+                  <a
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                  >
+                    <ExternalLink size={20} />
+                  </a>
                 </div>
               </div>
             </div>
