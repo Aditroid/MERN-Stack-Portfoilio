@@ -7,7 +7,7 @@ const projects = [
     description: "A beautiful page for multiple API tools",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "API Tools"],
-    demoUrl: "#",
+    demoUrl: "https://api-tools-beta.vercel.app/",
     githubUrl: "https://github.com/Aditroid/Reactjs-FetchAPI-Task",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
       "A secure and efficient password management app that allows users to store and retrieve credentials seamlessly",
     image: "/projects/project3.png",
     tags: ["React", "TailwindCSS", "Node.js", "Express", "MongoDB"],
-    demoUrl: "#",
+    demoUrl: "https://pass-manager-chi.vercel.app/",
     githubUrl: "https://github.com/Aditroid/Pass-Manager",
   },
   {
@@ -37,7 +37,7 @@ const projects = [
       "A web application that replicates the core functionality of LinkTree, allowing users to create a personalized webpage containing all their important links",
     image: "/projects/project4.png",
     tags: ["Next.js", "Tailwind", "Express", "MongoDB"],
-    demoUrl: "#",
+    demoUrl: "https://linktree-clone-five-xi.vercel.app/",
     githubUrl: "https://github.com/Aditroid/linktree-clone",
   },
   {
@@ -47,7 +47,7 @@ const projects = [
       "A lightweight and efficient web application that provides users with essential text manipulation features",
     image: "/projects/project5.png",
     tags: ["React", "Bootstrap"],
-    demoUrl: "#",
+    demoUrl: "https://text-editor-theta-fawn.vercel.app/",
     githubUrl: "https://github.com/Aditroid/Text-Editor",
   },
   {
